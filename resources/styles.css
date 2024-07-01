@@ -1,0 +1,59 @@
+.defaultText {
+  font-size: 32;
+  font-family: System-Regular;
+  font-weight: regular;
+  text-length: 32;
+}
+
+#background {
+  width: 100%;
+  height: 100%;
+  fill: white;
+}
+
+.application-fill           { fill: fb-mint; }
+.foreground-fill            { fill: fb-white; }
+.background-fill            { fill: fb-black; }
+
+#button-to-on #text {
+  text-buffer: "Fan Power";
+}
+
+#button-to-on {
+  x: "50%-48";
+  y: "38%-48";
+}
+
+#button-to-off #text {
+  text-buffer: "Fan Off";
+}
+
+#button-to-fan-speed #text {
+  text-buffer: "Change Speed";
+}
+
+#button-to-fan-speed {
+  x: "25%-48";
+  y: "60%";
+}
+
+#button-to-fan-swing #text {
+  text-buffer: "Swing";
+}
+
+#button-to-fan-swing {
+  x: "75%-48";
+  y: "60%";
+}
+
+.power-button #image {
+  href: "power.png";
+}
+
+.fan-speed-button #image {
+  href: "fan-speed.png";
+}
+
+.swing-button #image {
+  href: "swing.png";
+}

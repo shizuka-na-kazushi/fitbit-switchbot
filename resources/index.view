@@ -1,0 +1,12 @@
+<svg>
+  <rect id="background" >
+      <text x="50%" y="15%"
+        font-size="30" font-weight="bold"
+        text-anchor="middle">扇風機リモコン</text>
+
+    <use id="button-to-on" href="#icon-button" class="large-button application-fill power-button" />
+    <!-- <use id="button-to-off" href="#text-button" class="text-button secondary application-fill" /> -->
+     <use id="button-to-fan-speed" href="#icon-button" class="large-button application-fill fan-speed-button" />
+     <use id="button-to-fan-swing" href="#icon-button" class="large-button application-fill swing-button" />
+  </rect>
+</svg>

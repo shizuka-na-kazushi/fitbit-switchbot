@@ -1,0 +1,31 @@
+{
+  "name": "fitbit-switchbot",
+  "version": "0.1.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@fitbit/sdk": "~7.1.0-pre.0",
+    "@fitbit/sdk-cli": "~1.8.0-pre.10",
+    "@fitbit/sdk-build-targets": "cmengler/fitbit-sdk-build-targets"
+  },
+  "fitbit": {
+    "appUUID": "81881ddd-3713-4731-b4a7-e5d6cc13ddae",
+    "appType": "app",
+    "appDisplayName": "Fitbit Switchbot",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#ffffff",
+    "requestedPermissions": [
+      "access_internet"
+    ],
+    "buildTargets": [
+      "hera",
+      "rhea"
+    ],
+    "i18n": {},
+    "defaultLanguage": "en-US"
+  },
+  "scripts": {
+    "build": "fitbit-build",
+    "debug": "fitbit"
+  }
+}
